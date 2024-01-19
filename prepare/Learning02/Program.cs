@@ -29,5 +29,5 @@ class Program
 
         resume1.Display();
 
-    }
+    } 
 }
