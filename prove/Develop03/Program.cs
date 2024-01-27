@@ -31,6 +31,7 @@ class Program
                 scripture.HideRandomWords();
                 if (scripture.isCompletelyHidden())
                 {
+                    Console.Clear();
                     Console.WriteLine("Congratulations, you memorized the scripture!");
                     System.Environment.Exit(0);
                 }
@@ -80,6 +81,7 @@ class Program
                     userScripture.HideRandomWords();
                     if (userScripture.isCompletelyHidden())
                     {
+                        Console.Clear();
                         Console.WriteLine("Congratulations, you memorized the scripture!");
                         System.Environment.Exit(0);
                     }         
