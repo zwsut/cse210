@@ -10,5 +10,6 @@ public class WritingAssignment : Assignment
     public string GetWritingInformation()
     {
         return $"{GetStudent()} - {GetTopic()}\n{_title}";
+        // return $"{GetSummary()}\n{_title}";
     }
 }
