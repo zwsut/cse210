@@ -35,6 +35,7 @@ public class Activity
         int x = 0;
         while (x < seconds)
         {
+            // I found the backspaces to not be useful when the animation is this many characters. This method seems simpler and cleaner.
             Console.Write("\r{0}       ", "|o     |");
             Thread.Sleep(500);
             Console.Write("\r{0}       ", "| o    |");
