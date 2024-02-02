@@ -1,3 +1,4 @@
+// ZachSutherland CSE210 2-1-24
 public class GratitudeActivity : Activity
 {
     private List<string> _answers = new List<string>();
@@ -47,7 +48,7 @@ public class GratitudeActivity : Activity
                 }
 
                 Console.WriteLine($"\nWell done! \nKeep in mind these positive things in your life: {formattedAnswers}.\n");
-            }
+            } 
         }
 
         public void AddAnswer(string response)

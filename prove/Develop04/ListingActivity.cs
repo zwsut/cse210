@@ -1,3 +1,4 @@
+// ZachSutherland CSE210 2-1-24
 public class ListingActivity : Activity
 {
     // Guide the user to think broadly, by helping them list as many things as they can in a certain area of strength or positivity. They might discover more breadth than they previously realized.
@@ -55,5 +56,5 @@ public class ListingActivity : Activity
     public List<string> GetListFromUser()
     {
         return null;
-    }
+    } 
 }

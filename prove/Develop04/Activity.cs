@@ -1,3 +1,4 @@
+// ZachSutherland CSE210 2-1-24
 public class Activity
 {
     private string _name;
@@ -67,6 +68,6 @@ public class Activity
 
     public int GetDuration()
     {
-        return _duration;
+        return _duration; 
     }
 }

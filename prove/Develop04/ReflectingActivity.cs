@@ -1,3 +1,4 @@
+// ZachSutherland CSE210 2-1-24
 public class ReflectingActivity : Activity
 {
     // Guide the user to think deeply, by having them consider a certain experience when they were successful or demonstrated strength. Then, prompt them with questions to reflect more deeply about details of this experience. They might discover more depth than they previously realized.
@@ -73,4 +74,4 @@ public class ReflectingActivity : Activity
         this.ShowSpinner(2);
         Console.Write("\n");
     }
-}
+} 

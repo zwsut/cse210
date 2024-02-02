@@ -1,9 +1,10 @@
+// ZachSutherland CSE210 2-1-24
 public class BreathingActivity : Activity
 {
     // Help the user pace their breathing to have a session of deep breathing for a certain amount of time. They might find more peace and less stress through the exercise.
 
     public BreathingActivity(string name, string description, int duration) : base(name, description, duration)
-    {}
+    {} 
 
     public void Run()
     {
