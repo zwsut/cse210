@@ -1,0 +1,4 @@
+0||wizard
+simple||Example simple goal||This is an example description for a sample goal||250||false
+eternal||Example eternal goal||This is an example description for an eternal goal||300||false
+checklist||Example checklist goal||This is an example description for a checklist goal||100||false||0||600||3

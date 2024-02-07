@@ -1,0 +1,7 @@
+3550||alchemist
+checklist||Volunteer at the soup kitchen||Volunteer to cook and serve for a night at the local soup kitchen||350||true||3||1000||3
+eternal||Study scriptures||Study the Gospel for at least 15 minuts||150||false
+simple||Run 5 miles||Finish a 5 mile run||250||true
+simple||Run 10 miles||Finish a 10 mile run||500||true
+simple||Run 15 miles||Finish a 15 mile run||1200||false
+eternal||Short run||Run between 1 and 5 miles||150||false
