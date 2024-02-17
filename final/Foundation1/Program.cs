@@ -36,10 +36,12 @@ class Program
 
 
         // Displaying videos with comments
-        first.Display();
-        second.Display();
-        third.Display();
-        fourth.Display();
+        List<Video> videos = new List<Video>(){first, second, third, fourth};
+        
+        foreach (Video x in videos)
+        {
+            x.Display();
+        }
     }
 
 }
