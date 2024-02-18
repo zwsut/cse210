@@ -21,6 +21,8 @@ public abstract class Event
         return $"            {_title}\n\n{_description}\n\n{_date}\n{_time}\n\n{eventAddress}\n\n";
     }
 
+    public abstract string GetFullDetails();
+
     public abstract string ShowShortDescription();
 
     public string GetTitle()
@@ -47,8 +49,4 @@ public abstract class Event
     {
         return _address;
     }
-
-    public abstract string GetFullDetails();
-
-
 }
